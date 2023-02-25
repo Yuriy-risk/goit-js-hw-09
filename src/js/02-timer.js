@@ -1,6 +1,6 @@
-import flatpickr from 'flatpickr';
-import 'flatpickr/dist/themes/dark.css';
-import { Report } from 'notiflix/build/notiflix-report-aio';
+import flatpickr from "flatpickr";
+import "flatpickr/dist/themes/dark.css";
+import { Report } from "notiflix/build/notiflix-report-aio";
 
 const daysValueEl = document.querySelector('.value[data-days]');
 const hoursValueEl = document.querySelector('.value[data-hours]');
